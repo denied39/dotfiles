@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 New dotfiles repository to keep track of it all.
 =======
 Installation:
@@ -15,4 +15,4 @@ Installation:
     cd ~/.vim
     git submodule init
     git submodule update
->>>>>>> vim/master
+
