@@ -113,3 +113,4 @@ if ! shopt -oq posix; then
 fi
 source ~/git-completion.bash
 source ~/.git-prompt.sh
+export HISTTIMEFORMAT="%F %T "
