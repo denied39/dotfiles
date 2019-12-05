@@ -111,6 +111,6 @@ if ! shopt -oq posix; then
     . /etc/bash_completion
   fi
 fi
-source ~/git-completion.bash
+source ~/.git-completion.bash
 source ~/.git-prompt.sh
 export HISTTIMEFORMAT="%F %T "
