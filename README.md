@@ -5,9 +5,8 @@ Installation:
 
  `git clone https://github.com/denied39/dotfiles.git`
 
-  Create symlinks:
+  Install dotfiles:
 
-    ln -s ~/.vim/vimrc ~/.vimrc
-    ln -s ~/.vim/gvimrc ~/.gvimrc
-
-  
+    cd dotfiles
+    sh ./install.sh
+    
