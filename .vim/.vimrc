@@ -275,3 +275,7 @@ map ,s :call StripWhitespace ()<CR>
 let g:manpageview_pgm= 'man -P "/usr/bin/less -is"'
 let $MANPAGER = '/usr/bin/less -is'
 
+" --------------------------------------------------------------------------
+" Turn off pylinting
+" --------------------------------------------------------------------------
+let g:pymode_lint = 0
