@@ -8,6 +8,7 @@ cp -r $DOTFILES_DIR/.vim ../
 # Symlink .bashrc
 ln -sfv "$DOTFILES_DIR/.bashrc" ~
 ln -sfv "$DOTFILES_DIR/.profile" ~
+ln -sfv "$DOTFILES_DIR/.tmux.conf" ~
 ln -sfv "$DOTFILES_DIR/.vim/.vimrc" ~
 ln -sfv "$DOTFILES_DIR/.dircolors" ~
 ln -sfv "$DOTFILES_DIR/.git-completion.bash" ~

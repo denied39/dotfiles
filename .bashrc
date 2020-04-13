@@ -114,3 +114,5 @@ fi
 source ~/.git-completion.bash
 source ~/.git-prompt.sh
 export HISTTIMEFORMAT="%F %T "
+
+[ -f ~/.fzf.bash ] && source ~/.fzf.bash
