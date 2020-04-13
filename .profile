@@ -28,13 +28,13 @@ fi
 
 export PS1='\[\e[1;92m\][\D{%Y-%m-%d %H:%M:%S}] \[\e[1;95m\] \u@\H \[\e[1;36m\]\w $(__git_ps1 " (%s)"): \[\e[1;95m\]\n# \[\e[0m\]';
 export HISTTIMEFORMAT="[%Y-%m-%d %T] "
-if [ -f ~/.git-prompt.sh ]; then
-  GIT_PS1_SHOWDIRTYSTATE=true
-  GIT_PS1_SHOWSTASHSTATE=true
-  GIT_PS1_SHOWUNTRACKEDFILES=true
-  GIT_PS1_SHOWUPSTREAM="auto"
-  GIT_PS1_HIDE_IF_PWD_IGNORED=true
-  GIT_PS1_SHOWCOLORHINTS=true
-  . ~/.git-prompt.sh
-fi
+#if [ -f ~/.git-prompt.sh ]; then
+#  GIT_PS1_SHOWDIRTYSTATE=true
+#  GIT_PS1_SHOWSTASHSTATE=true
+#  GIT_PS1_SHOWUNTRACKEDFILES=true
+#  GIT_PS1_SHOWUPSTREAM="auto"
+#  GIT_PS1_HIDE_IF_PWD_IGNORED=true
+#  GIT_PS1_SHOWCOLORHINTS=true
+#  . ~/.git-prompt.sh
+#fi
 
