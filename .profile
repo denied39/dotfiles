@@ -26,6 +26,10 @@ if [ -d "$HOME/.local/bin" ] ; then
     PATH="$HOME/.local/bin:$PATH"
 fi
 
+export GOPATH=$HOME/go
+export GOROOT=/usr/local/go
+export PATH=$PATH:$GOROOT/bin:$GOPATH/bin
+
 export PS1='\[\e[1;92m\][\D{%Y-%m-%d %H:%M:%S}] \[\e[1;95m\] \u@\H \[\e[1;36m\]\w $(__git_ps1 " (%s)"): \[\e[1;95m\]\n# \[\e[0m\]';
 export HISTTIMEFORMAT="[%Y-%m-%d %T] "
 #if [ -f ~/.git-prompt.sh ]; then
